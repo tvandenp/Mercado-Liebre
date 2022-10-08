@@ -20,66 +20,62 @@
 
 <body>
     <section class="register-form">
-        <div>
-            <form action="/" method="get">
-                <div class="reg-name">
-                    <label for="nombre"><i class="fa-sharp fa-solid fa-id-card"></i></label>
-                    <input type="text" value="Nombre y Apellido" name="nombre" id="nombre" minlength="4" required>
-                </div>
+        <h1 class="titulo-reg">Creá tu usuario</h1>
+        <form action="/" method="get">
+            <div class="reg-name">
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" name="nombre" id="nombre" minlength="4" required>
+            </div>
 
-                <div class="reg-mail">
-                    <label for="user"><i class="fa-sharp fa-solid fa-envelope"></i>Mail</label>
-                    <input type="email" name="user" id="user" required>
-                </div>
+            <div class="reg-mail">
+                <label for="user">Mail</label>
+                <input type="email" name="user" id="user" required>
+            </div>
 
-                <div class="reg-birth">
-                    <label for="nacimiento">Fecha de nacimiento</label>
-                    <input type="date" name="nacimiento" id="nacimiento" required>
-                </div>
+            <div class="reg-birth">
+                <label for="nacimiento">Fecha de nacimiento</label>
+                <input type="date" name="nacimiento" id="nacimiento" required>
+            </div>
 
-                <div class="reg-adress">
-                    <label for="domicilio">Domicilio de entrega</label>
-                    <input type="text" name="domicilio" id="domicilio" required>
-                </div>
+            <div class="reg-address">
+                <label for="domicilio">Domicilio de entrega</label>
+                <input type="text" name="domicilio" id="domicilio" required>
+            </div>
 
-                <div class="reg-profile">
-                    <label for="perfil">Quiero vender</label>
-                    <input type="radio" name="perfil" value="Vendedor" id="perfilVendedor">
-                    <label for="perfil">Quiero comprar</label>
-                    <input type="radio" name="perfil" value="Comprador" id="perfilComprador">
-                </div>
-                <div class="reg-interest">
-                    <label for="interes">Categorías de interés:</label>
-                    <input type="checkbox" name="interes" value="electro"><i
-                        class="fa-sharp fa-solid fa-laptop"></i>Electro</input>
-                    <input type="checkbox" name="interes" value="moda"><i
-                        class="fa-sharp fa-solid fa-shirt"></i>Moda</input>
-                    <input type="checkbox" name="interes" value="home"><i
-                        class="fa-sharp fa-solid fa-couch"></i>Hogar</input>
-                    <input type="checkbox" name="interes" value="toys"><i
-                        class="fa-sharp fa-solid fa-teddy-bear"></i>Juguetería</input>
-                    <input type="checkbox" name="interes" value="health">Vida sana</input>
-                </div>
+            <div class="reg-profile">
+                <label for="perfil">Quiero vender</label>
+                <input type="radio" name="perfil" value="Vendedor" id="perfilVendedor">
+                <label for="perfil">Quiero comprar</label>
+                <input type="radio" name="perfil" value="Comprador" id="perfilComprador">
+            </div>
+            <div class="reg-interest">
+                <label for="interes">Categorías de interés:</label>
+                <input type="checkbox" name="interes" value="electro">Electro</input>
+                <input type="checkbox" name="interes" value="moda">Moda</input>
+                <input type="checkbox" name="interes" value="home">Hogar</input>
+                <input type="checkbox" name="interes" value="toys">Juguetería</input>
+                <input type="checkbox" name="interes" value="health">Vida sana</input>
+            </div>
 
-                <div class="reg-upload">
-                    <label for="avatar">Foto de perfil</label>
-                    <input type="file" name="avatar" id="avatar">
-                </div>
-                <div class="reg-pass">
-                    <label for="passwd">Contraseña</label>
-                    <input type="password" name="passwd" required>
-                </div>
-                <div class="reg-pass"><label for="passwd">Repetir contraseña</label required>
-                    <input type="password" name="passwd">
-                </div>
-                <div class="reg-button">
-                    <button type="submit"><span>Enviar </span></button>
-                </div>
-                <div class="reg-button">
-                    <button type="reset"><span>Resetear</span></button>
-                </div>
+            <div class="reg-upload">
+                <label for="avatar">Foto de perfil</label>
+                <input type="file" name="avatar" id="avatar">
+            </div>
+            <div class="reg-pass">
+                <label for="passwd">Contraseña</label>
+                <input type="password" name="passwd" required>
+            </div>
+            <div class="reg-pass"><label for="passwd">Repetir contraseña</label required>
+                <input type="password" name="passwd">
+            </div>
+            <div>
+                <button type="submit" class="buttom-MeLiebre"><span class="buttom-MeLiebre1">Enviar </span></button>
+            </div>
+            <div>
+                <button type="reset" class="buttom-MeLiebre"><span class="buttom-MeLiebre1">Resetear</span></button>
+            </div>
 
-            </form>
+        </form>
     </section>
 </body>
 

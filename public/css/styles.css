@@ -77,6 +77,9 @@ header {
     height: 39px;
     position: relative;
     align-self: center;
+    color: #666;
+    font-size: 15px;
+    height: 50%;
 }
 
 main {
@@ -86,33 +89,42 @@ main {
 }
 
 .banner-secundario {
-    width: 110%;
-    margin: auto;
-    margin-left: -10%;
+    width: 100vw;
+        margin: 0;
+        display: initial;
+
 }
 
-h4.titulos {
-    margin: 20px;
+
+
+.titulos {
+    margin: 15px;
     color: #666;
     font-weight: bolder;
+    margin-bottom: 20px;
+    align-self: auto;
+    font-weight: bold;
 }
 
 main {
     background-color: #ebebeb;
 }
 
+.recomended-items {
+    display: block;
+}
+
 .main-article {
     background-color: white;
     border: solid;
     border-color: #ebebeb;
-    border: 1px, 0, 0, 0;
+    border: 1px, 0px, 0px, 0px;
     padding: 15px;
     box-sizing: border-box;
-    margin-bottom: 10px;
     position: relative;
     align-self: auto;
     width: 105%;
-    max-width: 360px;
+
 }
 
 .imagen-producto {
@@ -124,7 +136,7 @@ main {
     display: block;
     color: #39b54a;
     margin-bottom: 10px;
-    position: relative;
+    position: absolute;
     margin-left: 90%;
     margin-top: -30px;
     background-color: #fff;
@@ -134,7 +146,7 @@ main {
     padding: 5px;
     width: 30px;
     height: 30px;
-
+    right: 20px;
 }
 
 
@@ -145,12 +157,20 @@ p {
 .precio {
     font-size: 18px;
     font-weight: bold;
+    margin-right: 5px;
+}
+
+.precio-oferta {
+    display: flex;
+    direction: wrap;
+    justify-content: start;
+    align-items: flex-start;
+    padding-left: 5px;
 }
 
 .descuento {
     font-size: 16px;
     color: #39b54a;
-    margin-bottom: 15px;
     font-weight: bold;
 }
 
@@ -159,11 +179,19 @@ p {
     color: #666;
     font-weight: bold;
     display: none;
+    transition: display 150ms;
+
+}
+
+.descripcion:hover{
+    display: block;
 }
 
 
 .titulos {
     font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 
@@ -174,13 +202,6 @@ p {
 
 }
 
-
-
-.buscador {
-    color: #666;
-    font-size: 15px;
-    height: 50%;
-}
 
 
 a {
@@ -208,8 +229,8 @@ footer {
 }
 
 
-h4.footer-h4 {
-    font-size: 15px;
+h3.footer-h3 {
+    font-size: 16px;
     margin-bottom: 10px;
     margin-top: 10px;
     font-weight: bold;
@@ -223,11 +244,15 @@ h4.footer-h4 {
 
 .productos-lista {
     max-width: 361px;
+    width: 90%;
+
 }
 
 .productos-lista img {
     max-width: 361px;
     padding: 0;
+    width: 405;
+    height: 350;
 }
 
 p.pfooter {
@@ -247,18 +272,18 @@ p.pfooter {
 
 
 .register-form {
-    background-color: #ebebeb;
-    height: 100%;
-    margin: center;
-    padding: 25px;
-    line-height: 25px
+    background-color: #fff;
+    height: 200vw;
+    align-items: center;
+    max-width: 450px;
+    padding: 30px 15px 50px 15px;
 }
 
 .reg-name i {
     color: #3483fa;
 }
 
-.reg-name label{
+.reg-name label {
     color: black;
 }
 
@@ -275,13 +300,14 @@ p.pfooter {
 
 .reg-interest input {
     display: block;
+    
 }
 
 .reg-mail i {
     color: #3483fa;
 }
 
-.log-button {
+.buttom-MeLiebre {
     width: 90%;
     height: 48px;
     border-color: transparent;
@@ -292,7 +318,7 @@ p.pfooter {
 
 }
 
-.log-button1 {
+.buttom-MeLiebre1 {
     color: #fff;
     font-size: 14px;
     background-color: #3483fa;
@@ -341,9 +367,6 @@ p.pfooter {
     padding-bottom: 25px;
 }
 
-.log-pass {
-    padding-bottom: 25px;
-}
 
 .log-name input {
     width: 90%;
@@ -359,11 +382,64 @@ p.pfooter {
     justify-content: center;
 }
 
+.reg-name{
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+
+.reg-name input {
+        color: black;
+    font-size: 14px;
+    border: solid 1px #E5E5E5;
+    border-radius: 6px;
+    align-items: center;
+    text-align: center;
+    display:initial;
+    font-weight: 600;
+}
+.reg-mail{
+    padding-bottom: 15px;
+}
+
+.reg-mail input{
+    color: black;
+    font-size: 14px;
+    border: solid 1px #E5E5E5;
+    border-radius: 6px;
+    align-items:flex-end;
+    text-align: center;
+    display:initial;
+    font-weight: 600;
+}
+
+.reg-birth{
+    padding-bottom: 15px;
+}
+
+.reg-address{
+    padding-bottom: 15px;
+}
+
+.reg-profile{
+    padding-bottom: 15px;
+}
+
+.reg-upload{
+    padding-bottom: 15px;
+}
+
+.reg-pass{
+    padding-bottom: 15px;
+}
+
+
+
 .log-pass {
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     display: flex;
     align-self: center;
+    padding-bottom: 25px;
 }
 
 .log-pass input {
@@ -376,6 +452,7 @@ p.pfooter {
     align-items: center;
     text-align: center;
     display: flex;
+    
     font-weight: 600;
     justify-content: center;
 }
@@ -389,10 +466,14 @@ p.pfooter {
         color: #666;
         font-weight: bold;
         display: block;
+        padding-top: 15px;
     }
 
     .productos-lista {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 40%;
+        display: block;
+        box-sizing: content-box;
     }
 
     .log-button {
@@ -403,6 +484,7 @@ p.pfooter {
     .lista-1 {
         margin-bottom: 0px;
         color: black;
+
     }
 
     .salto-mobile {
@@ -425,7 +507,7 @@ p.pfooter {
 
     .buscador {
         display: none;
-        height: 50%;
+        height: 70%;
     }
 
     .salto-mobile {
@@ -441,6 +523,7 @@ p.pfooter {
 
     .header-menu ul {
         display: flex;
+        list-style: none;
     }
 
     .header-menu li {
@@ -468,6 +551,30 @@ p.pfooter {
         margin: 0 auto;
     }
 
+    .recomended-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .main-article {
+        width: 100%;
+
+    }
+
+    .imagen-producto {
+        width: 100%;
+        align-items: center;
+    }
+
+    .productos-lista {
+        margin-bottom: 20px;
+    }
+
+    .register-form{
+        margin: 0 auto;
+    }
+
 }
 
 @media (min-width: 769px) {
@@ -485,7 +592,7 @@ p.pfooter {
 
     .buscador {
         display: block;
-        height: 50%;
+        height: 70%;
     }
 
     .banner-secundario {
@@ -508,6 +615,20 @@ p.pfooter {
         padding: 30px 15px 50px 15px;
         text-align: center;
         margin: 0 auto;
+    }
+
+    .productos-lista {
+        width: 20%;
+
+    }
+
+    .imagen-producto {
+        display: flex;
+    }
+
+    .main-article {
+        display: block;
+        padding: 15%;
     }
 
 }
