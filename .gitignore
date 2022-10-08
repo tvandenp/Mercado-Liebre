@@ -1,0 +1,4 @@
+node_modules
+package-lock.json
+.hubot_history
+npm-debug.log

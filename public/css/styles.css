@@ -1,0 +1,513 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-meli {
+    padding-top: 1px;
+}
+
+
+header {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #EAC926;
+    margin-top: 10px;
+}
+
+.opciones {
+    margin-bottom: 30px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.header-menu {
+    background-color: #EAC926;
+    display: none;
+}
+
+.lista-1 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.lista-2 {
+    padding-bottom: 20px;
+    color: black;
+    background-color: #EAC926;
+}
+
+.icono {
+    margin-left: 10px;
+}
+
+.icono-mano {
+    margin-left: 50px;
+}
+
+.burger-menu {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.burger-menu i {
+    color: white;
+    background-color: #1259c3;
+    max-width: 50px;
+    padding: 15px 0px;
+    display: block;
+    border-radius: 8px;
+    font-size: 18px;
+    margin: auto;
+}
+
+.buscador {
+    padding: 10px;
+    height: 39px;
+    position: relative;
+    align-self: center;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+.banner-secundario {
+    width: 110%;
+    margin: auto;
+    margin-left: -10%;
+}
+
+h4.titulos {
+    margin: 20px;
+    color: #666;
+    font-weight: bolder;
+}
+
+main {
+    background-color: #ebebeb;
+}
+
+.main-article {
+    background-color: white;
+    border: solid;
+    border-color: #ebebeb;
+    border: 1px, 0, 0, 0;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    position: relative;
+    align-self: auto;
+    width: 105%;
+    max-width: 360px;
+}
+
+.imagen-producto {
+    width: 105%;
+    max-width: 360px;
+}
+
+.main-article i {
+    display: block;
+    color: #39b54a;
+    margin-bottom: 10px;
+    position: relative;
+    margin-left: 90%;
+    margin-top: -30px;
+    background-color: #fff;
+    border: 1px solid #39b54a;
+    border-radius: 50%;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+
+}
+
+
+p {
+    font-size: 12px;
+}
+
+.precio {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.descuento {
+    font-size: 16px;
+    color: #39b54a;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.descripcion {
+    font-size: 16px;
+    color: #666;
+    font-weight: bold;
+    display: none;
+}
+
+
+.titulos {
+    font-size: 24px;
+}
+
+
+.logo-meli {
+    width: 134px;
+    padding: 20px;
+    box-sizing: content-box;
+
+}
+
+
+
+.buscador {
+    color: #666;
+    font-size: 15px;
+    height: 50%;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 5px;
+    font-size: 17px;
+}
+
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2em;
+    background-color: white;
+    color: #666;
+}
+
+.iconos-footer {
+    color: #1259c3;
+    ;
+    margin-bottom: 10px;
+    font-size: 1em;
+    padding-top: 45px;
+}
+
+
+h4.footer-h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.last-comment {
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.productos-lista {
+    max-width: 361px;
+}
+
+.productos-lista img {
+    max-width: 361px;
+    padding: 0;
+}
+
+p.pfooter {
+    text-align: center;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+
+.text-resaltado {
+    background-color: white;
+    background-position: center;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+
+
+.register-form {
+    background-color: #ebebeb;
+    height: 100%;
+    margin: center;
+    padding: 25px;
+    line-height: 25px
+}
+
+.reg-name i {
+    color: #3483fa;
+}
+
+.reg-name label{
+    color: black;
+}
+
+.reg-button {
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #3483fa;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 14px;
+    max-width: 42px;
+    display: inline-block;
+}
+
+.reg-interest input {
+    display: block;
+}
+
+.reg-mail i {
+    color: #3483fa;
+}
+
+.log-button {
+    width: 90%;
+    height: 48px;
+    border-color: transparent;
+    display: block;
+    align-self: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.log-button1 {
+    color: #fff;
+    font-size: 14px;
+    background-color: #3483fa;
+    cursor: pointer;
+    border-color: transparent;
+    border-radius: 6px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    height: 100%;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.all-login h1 {
+    padding-bottom: 10px;
+}
+
+.all-login {
+    background-color: #fff;
+    height: 500px;
+    align-items: center;
+    max-width: 450px;
+    padding: 30px 15px 50px 15px;
+}
+
+.user-login {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-self: center;
+    padding-bottom: 2px;
+    font-weight: 400;
+}
+
+.passwd-login {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-self: center;
+    padding-bottom: 2px;
+    font-weight: 400;
+}
+
+.log-name {
+    padding-bottom: 25px;
+}
+
+.log-pass {
+    padding-bottom: 25px;
+}
+
+.log-name input {
+    width: 90%;
+    height: 48px;
+    color: black;
+    font-size: 14px;
+    border: solid 1px #E5E5E5;
+    border-radius: 6px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.log-pass {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    display: flex;
+    align-self: center;
+}
+
+.log-pass input {
+    width: 90%;
+    height: 48px;
+    color: black;
+    font-size: 14px;
+    border: solid 1px #E5E5E5;
+    border-radius: 6px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+}
+
+
+
+@media (min-width: 450px) {
+
+    .descripcion {
+        font-size: 16px;
+        color: #666;
+        font-weight: bold;
+        display: block;
+    }
+
+    .productos-lista {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .log-button {
+        width: 90%;
+    }
+
+
+    .lista-1 {
+        margin-bottom: 0px;
+        color: black;
+    }
+
+    .salto-mobile {
+        display: none;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .header-meli {
+        display: flex;
+        justify-content: space-between;
+        max-width: 80%;
+        align-items: center;
+        text-align: right;
+        margin: start;
+
+    }
+
+    .buscador {
+        display: none;
+        height: 50%;
+    }
+
+    .salto-mobile {
+        display: none;
+    }
+
+    .header-menu {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        max-width: 80%;
+    }
+
+    .header-menu ul {
+        display: flex;
+    }
+
+    .header-menu li {
+        margin: 0 5px;
+    }
+
+    a {
+        font-size: 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .logo-meli {
+        width: 134px;
+
+    }
+
+    .all-login {
+        background-color: #fff;
+        height: 500px;
+        align-items: center;
+        max-width: 450px;
+        padding: 30px 15px 50px 15px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+}
+
+@media (min-width: 769px) {
+
+    .header-meli {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .header-menu {
+        max-width: 1200px;
+        margin: auto;
+
+    }
+
+    .buscador {
+        display: block;
+        height: 50%;
+    }
+
+    .banner-secundario {
+        width: 100%;
+        margin: auto;
+    }
+
+    .titulos {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .body-sections {
+        background-color: #e6e6e6;
+    }
+
+    .all-login {
+        align-items: center;
+        max-width: 450px;
+        padding: 30px 15px 50px 15px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+}
