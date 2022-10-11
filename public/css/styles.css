@@ -130,6 +130,7 @@ main {
 .imagen-producto {
     width: 105%;
     max-width: 360px;
+    margin-left: -20px;
 }
 
 .main-article i {
